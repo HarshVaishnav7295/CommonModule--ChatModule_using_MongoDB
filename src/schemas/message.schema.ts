@@ -10,6 +10,7 @@ export class Message{
     @Prop({type:Boolean,default:false})
     isMedia : boolean
 
+    
     @Prop({type:String})
     mediaUrl : string
 
